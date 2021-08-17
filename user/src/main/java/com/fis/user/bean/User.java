@@ -53,13 +53,13 @@ public class User {
 		this.password = password;
 	}
 
-//	public Set<Role> getRoleList() {
-//		return roleList;
-//	}
-//
-//	public void setRoleList(Set<Role> roleList) {
-//		this.roleList = roleList;
-//	}
+	public Set<Role> getRoleList() {
+		return roleList;
+	}
+
+	public void setRoleList(Set<Role> roleList) {
+		this.roleList = roleList;
+	}
 
 //	@Override
 //	public String toString() {
@@ -67,3 +67,4 @@ public class User {
 //	}
 
 }
+
