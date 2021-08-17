@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.fis.loan.bean.Loan;
 
 @RestController
-@RequestMapping("/loan")
+@RequestMapping("/loans")
 public class LoanController {
 	
 	@GetMapping ("/{number}")
